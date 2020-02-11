@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ReconBot</string>
+    <string name="title_historico">History</string>
+    <string name="title_camera">Camera</string>
+    <string name="title_chat">Chat</string>
+    <string name="StringResult1">result1</string>
+    <string name="Stringgalery">Gallery</string>
+    <string name="Stringcamera">Camera</string>
+    <string name="Stringor">or</string>
+
+
+    <!-- ChatBot -->
+    <string name="non_empty_query">Query should not be empty</string>
+</resources>

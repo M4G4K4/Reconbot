@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_camera"> <!-- Needed to change to a home screen-->
+
+    <!-- Where is defined the bottom navigation-->
+    <fragment
+        android:id="@+id/navigation_historico"
+        android:name="com.e.reconbot.ui.history.HistoryFragment"
+        android:label="@string/title_historico"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/navigation_camera"
+        android:name="com.e.reconbot.ui.dashboard.DashboardFragment"
+        android:label="@string/title_camera"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <activity
+        android:id="@+id/chatView"
+        android:name="com.e.reconbot.ui.notifications.ChatActivity"
+        android:label="@string/title_chat"
+        tools:layout="@layout/activity_chat"/>
+
+<!--    <fragment
+        android:id="@+id/navigation_chat"
+        android:name="com.e.reconbot.ui.notifications.NotificationsFragment"
+        android:label="@string/title_chat"
+        tools:layout="@layout/fragment_notifications" />-->
+</navigation>
+
+    <!--
+        Ultimo fragment
+    tools:layout="@layout/fragment_notifications" -->

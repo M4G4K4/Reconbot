@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_historico"
+        android:icon="@drawable/historico"
+        android:title="@string/title_historico" />
+
+    <item
+        android:id="@+id/navigation_camera"
+        android:icon="@drawable/camera"
+        android:title="@string/title_camera" />
+
+    <item
+        android:id="@+id/chatView"
+        android:icon="@drawable/bot"
+        android:title="@string/title_chat" />
+
+</menu>
